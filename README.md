@@ -68,4 +68,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/its-nihal-pa
 
 ## Authors
 
-* **Patel Nihal** - *Computer Science Student* - [Patel Nihal](https://github.com/its-nihal-patel) - **
+* **Patel Nihal** - *Computer Science Student* - [Patel Nihal](https://github.com/its-nihal-patel)
