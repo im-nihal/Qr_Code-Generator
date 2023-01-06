@@ -25,7 +25,7 @@ print("-"*40)
 print('Your Choice for Custom Logo QRCode: ' + options[int(usr_input) - 1])
 
 
-logo = Image.open(r"/home/gedion/PycharmProjects/QRcode Generator/icons/" + usr_input + '.png')
+logo = Image.open(r"/QRcode Generator/icons/" + usr_input + '.png')          #path goes here
 basewith = 75
 wpercent = basewith/float(logo.size[0])
 hsize = int((float(logo.size[1] * float(wpercent))))
