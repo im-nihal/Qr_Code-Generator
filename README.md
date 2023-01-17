@@ -36,7 +36,9 @@
 ![Screen Shot](https://www.linkpicture.com/q/instagram_QrCode.png)
 
 
-QrCode Generator Provides a QR code generator that let you embed a predefined or custom logo in your QR code. The custom logos are popular social media logos like Facebook, instagram, snapchat, telegram, whatsapp, github, YouTue and Twitter.
+QrCode Generator1.0 Provides a QR code generator that let you embed a predefined or custom logo in your QR code. The custom logos are popular social media logos like Facebook, instagram, snapchat, telegram, whatsapp, github, YouTue and Twitter.
+
+QrCode Generator 2.0 is updated version of QrCode generator2.0
 
 * After running the project it asks you to select from given options like this.
 <a href='https://www.linkpicture.com/view.php?img=LPic63b83c3a7d1af178539819'><img src='https://www.linkpicture.com/q/Screenshot_31.png' type='image'></a>
