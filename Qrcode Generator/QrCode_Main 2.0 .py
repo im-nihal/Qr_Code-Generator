@@ -55,27 +55,34 @@ while True:
     if usr_input == "1":
         fb = input(prompt)
         qr_big.add_data(fb)
+        
     elif usr_input == "2":
         gh = input(prompt)
         qr_big.add_data(gh)
+        
     elif usr_input == "3":
         ig = input(prompt)
         qr_big.add_data(ig)
+        
     elif usr_input == "4":
         sc = input(prompt)
         qr_big.add_data(sc)
+        
     elif usr_input == '5':
         print("Telegram Usernames are case sensitive.")
         te = input(prompt)
         tlgrm = 'https://t.me/' + te
         qr_big.add_data(tlgrm)
+        
     elif usr_input == "6":
         tw = input(prompt)
         qr_big.add_data(tw)
+        
     elif usr_input == '7':
         wp = input(prompt)
         wtsp = "http://wa.me/91" + wp
         qr_big.add_data(wtsp)
+        
     elif usr_input == "8":
         yt = input(prompt)
         qr_big.add_data(yt)
@@ -88,7 +95,7 @@ while True:
 
     img_qr_big.save(filename)
 
-    print("Qr Code Generated. And saved in the Computer")
+    print(f'Your QR Code has been saved as {filename}')
     print("-"*40)
 
     repeat = input("Do you want to generate another QR code? (yes/no) ")
