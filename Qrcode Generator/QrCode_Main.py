@@ -116,7 +116,3 @@ elif usr_input == "8":
 print("-"*40)
 print("Your Custom Logo QR code Generated.")
 print("-"*40)
-
-
-
-
