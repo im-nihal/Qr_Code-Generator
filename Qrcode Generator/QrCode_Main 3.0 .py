@@ -25,9 +25,9 @@ options_filenames = {
     'youtube': 'youtube_QrCode.png'
 }
 
-logo_path = r"icons/"
+logo_path = r"icons/"   #path to directory
 
-#
+#this function generate QRCode based on users choice
 def generate_qr_code(url):
     qr_big = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=10, border=4)
     qr_big.add_data(url)
@@ -44,15 +44,20 @@ input_msg = "Please Enter an Option from below List: \n"
 # Numbering the options in the list
 for index, item in enumerate(options_prompts.keys()):
     input_msg = input_msg + f'({index + 1}) {item}\n'
+else:
+    print("You Entered Wrong Choice! Please Try Again.")
 
 input_msg += 'Your Choice: '
 
 repeat = 'y'
 while repeat == 'y':
-    usr_input = ''
-    while usr_input not in map(str, range(1, len(options_prompts) + 1)):
-        usr_input = input(input_msg)
-
+    usr_input = input(input_msg)
+    #check if user's input is valid
+    if usr_input not in map(str, range(1, len(options_prompts) + 1)):
+        # if input is not valid then continue with the next iteration
+        print("You Entered Wrong Option! Please Try Again")
+        print("-"*40)
+        continue
     print("-" * 40)
     print('Your Choice for Custom Logo QRCode: ' + str(usr_input))
 
@@ -83,11 +88,11 @@ while repeat == 'y':
 
 print("I Hope You Liked Qr Code Generator")
 
-logo = Image.open(logo_path + str(usr_input) + '.png')
+logo = Image.open(logo_path + str(usr_input) + '.png')  #concatinating predefined path users choice to get the exact iogo
 base_width = 75
 wpercent = base_width / float(logo.size[0])
 hsize = int((float(logo.size[1] * float(wpercent))))
-logo = logo.resize((base_width, hsize), Image.Resampling.LANCZOS)
+logo = logo.resize((base_width, hsize), Image.Resampling.LANCZOS)   #ANTIALIAS is going to be removed so Resampling is used.
 
 
 img_qr_big = generate_qr_code(url)
