@@ -33,9 +33,6 @@
 
 ## About The Project
 
-![Screen Shot](https://www.linkpicture.com/q/instagram_QrCode.png)
-
-
 QrCode Generator1.0 Provides a QR code generator that let you embed a predefined or custom logo in your QR code. The custom logos are popular social media logos like Facebook, instagram, snapchat, telegram, whatsapp, github, YouTue and Twitter.
 
 QrCode Generator 2.0 is updated version of QrCode generator1.0. It WILL asks the user if user want to generate another qr code or not. If user doesnt want to then it will exit.
@@ -43,16 +40,10 @@ QrCode Generator 2.0 is updated version of QrCode generator1.0. It WILL asks the
 QrCode Generator 3.0 is updated version of QrCode generator2.0. Its has same functionality but more efficient.
 
 
-* After running the project it asks you to select from given options like this.
-<a href='https://www.linkpicture.com/view.php?img=LPic63b83c3a7d1af178539819'><img src='https://www.linkpicture.com/q/Screenshot_31.png' type='image'></a>
-
+* After running the project it asks you to select from given options.
 * When option is selected it asks you to put a link/url of your social media account.
-<a href='https://www.linkpicture.com/view.php?img=LPic63b83ceab18e21116333335'><img src='https://www.linkpicture.com/q/Screenshot-2_28.png' type='image'></a>
-
 * When link is provided it generates a QR CODE and saves it in the computer where you have saved this project.
-                  ![Screen Shot](https://www.linkpicture.com/q/telegram_QrCode_1.png)
-
-
+                  
 ## Built With
 
 This project is built in python with the help of following modules.
